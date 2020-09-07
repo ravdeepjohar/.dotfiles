@@ -34,3 +34,8 @@ set is " incremental search during typing
 set hlsearch " highlight search
 set number " display current line number
 set relativenumber " display relative number
+
+" vim remappings
+" change C-P to behave like arrow search
+cnoremap <expr> <C-P> wildmenumode() ? "\<C-P>" : "\<Up>"
+cnoremap <expr> <C-N> wildmenumode() ? "\<C-N>" : "\<Down>"
