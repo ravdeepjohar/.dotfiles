@@ -12,6 +12,7 @@ call vundle#begin()
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'edkolev/tmuxline.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -51,3 +52,4 @@ set laststatus=2 " Always display status line
 let g:airline#extensions#tabline#enabled = 1 " Enable showing buffers name
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let g:airline#extensions#tabline#buffer_nr_show = 1 " Enable buffer numbers
+let g:airline_theme = 'gruvbox'
