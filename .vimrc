@@ -34,6 +34,10 @@ set is " incremental search during typing
 set hlsearch " highlight search
 set number " display current line number
 set relativenumber " display relative number
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+set expandtab
 
 " vim remappings
 " change C-P to behave like arrow search
