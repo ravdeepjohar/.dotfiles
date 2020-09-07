@@ -30,5 +30,5 @@ colorscheme gruvbox
 
 " vim settings 
 syntax enable
-
-
+set is " incremental search during typing
+set hlsearch " highlight search
