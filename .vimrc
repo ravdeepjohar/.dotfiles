@@ -10,6 +10,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 " All of your Plugins must be added before the following line
 Plugin 'morhetz/gruvbox'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -43,3 +45,9 @@ set expandtab
 " change C-P to behave like arrow search
 cnoremap <expr> <C-P> wildmenumode() ? "\<C-P>" : "\<Up>"
 cnoremap <expr> <C-N> wildmenumode() ? "\<C-N>" : "\<Down>"
+
+" Vim airline settings
+set laststatus=2 " Always display status line
+let g:airline#extensions#tabline#enabled = 1 " Enable showing buffers name
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#buffer_nr_show = 1 " Enable buffer numbers
