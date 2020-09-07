@@ -26,11 +26,11 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" Settings for gruvbox color-scheme 
+" Settings for gruvbox color-scheme
 set background=dark
 colorscheme gruvbox
 
-" vim settings 
+" vim settings
 syntax enable
 set is " incremental search during typing
 set hlsearch " highlight search
