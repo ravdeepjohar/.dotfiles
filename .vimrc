@@ -32,3 +32,5 @@ colorscheme gruvbox
 syntax enable
 set is " incremental search during typing
 set hlsearch " highlight search
+set number " display current line number
+set relativenumber " display relative number
