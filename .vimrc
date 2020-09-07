@@ -16,6 +16,7 @@ Plugin 'edkolev/tmuxline.vim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
