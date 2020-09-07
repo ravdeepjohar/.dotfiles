@@ -27,3 +27,8 @@ filetype plugin indent on    " required
 " Settings for gruvbox color-scheme 
 set background=dark
 colorscheme gruvbox
+
+" vim settings 
+syntax enable
+
+
