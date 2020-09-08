@@ -47,6 +47,8 @@ set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 set expandtab
+set undofile
+set undodir=~/.vim/undo
 
 " vim remappings
 " change C-P to behave like arrow search
